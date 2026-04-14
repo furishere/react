@@ -1,10 +1,8 @@
-import TodoList from "./projects/01ToDoList";
-import { DescribingTheUi } from "./react-docs/02DescribingTheUi";
-import { AddingInteractivvity } from "./react-docs/03AddingInteractivvity";
+import { Weather } from "./projects/05Weather";
 
 export default function App(){
 
   return <div>
-    <AddingInteractivvity />
+    <Weather />
   </div>
 }

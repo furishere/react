@@ -30,13 +30,13 @@ This repository reflects:
 ### Beginner Level
 
 * Counter App - done
-* To-Do List (Basic)
-* Simple Form (Login/Signup UI)
-* Toggle Button (Dark/Light Mode)
+* To-Do List (Basic) - done
+* Simple Form - done
+* Toggle Button - done
 
 ### Beginner to Intermediate
 
-* Weather App
+* Weather App 
 * Search Filter App
 * Quiz App
 * To-Do List (with Local Storage)
