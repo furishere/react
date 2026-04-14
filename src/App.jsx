@@ -1,11 +1,10 @@
 import TodoList from "./projects/01ToDoList";
-import { AddingToArray, RemovingFromTheArray } from "./react-docs/01Array";
+import { DescribingTheUi } from "./react-docs/02DescribingTheUi";
+import { AddingInteractivvity } from "./react-docs/03AddingInteractivvity";
 
 export default function App(){
 
   return <div>
-    {/* <AddingToArray />
-    <TodoList /> */}
-    <RemovingFromTheArray />
+    <AddingInteractivvity />
   </div>
 }

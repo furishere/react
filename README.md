@@ -29,7 +29,7 @@ This repository reflects:
 
 ### Beginner Level
 
-* Counter App
+* Counter App - done
 * To-Do List (Basic)
 * Simple Form (Login/Signup UI)
 * Toggle Button (Dark/Light Mode)

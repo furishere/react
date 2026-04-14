@@ -5,11 +5,13 @@ export default function TodoList(){
     const [newArr, setNewArr] = useState([])
 
     function add(){
+        if (list === "") return
+
         setNewArr([
             ...newArr,{
                 text : list
             }
-        ]),
+        ]);
 
         setList("")
     }
@@ -30,7 +32,9 @@ export default function TodoList(){
                 {newArr.map((arr, index) => (
                     
                     <li className="mt-1" key={index}>{arr.text}
-                    <button className="bg-red-800 text-white px-3 rounded-sm"> delete </button>
+                    <button onClick={() => {
+                        setNewArr(newArr.filter(a => a.key !== newArr.key))
+                    }} className="bg-red-800 text-white px-3 rounded-sm"> delete </button>
                     </li>
                     
                 ))}
